@@ -1,0 +1,29 @@
+{
+  "name": "ejercicio---server-render-con-express-pug",
+  "version": "1.0.0",
+  "description": "Ejercicio server render con express pug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinchiGit/EJERCICIO---Server-Render-con-Express-Pug.git"
+  },
+  "author": "ChinchiGit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChinchiGit/EJERCICIO---Server-Render-con-Express-Pug/issues"
+  },
+  "homepage": "https://github.com/ChinchiGit/EJERCICIO---Server-Render-con-Express-Pug#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2"
+  }
+}

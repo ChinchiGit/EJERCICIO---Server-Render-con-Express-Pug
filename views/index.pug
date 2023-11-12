@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Buscador de películas
+    link(rel='stylesheet', type='text/css', href='/styles.css')
+  body
+    h1 Bienvenido al buscador de películas 
+    h4 Introduce el título de la película que quieres consultar: 
+    form(action='/film/' method='post' id='titulo')
+      input(type="text" name="title" placeholder="Título de la película" required)
+      input(type="submit" value="Buscar")
+

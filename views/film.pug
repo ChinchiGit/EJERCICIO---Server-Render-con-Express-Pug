@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title Película Buscada
+        link(rel='stylesheet', type='text/css', href='/styles.css')
+    body
+        h1 #{peliObtenida.Title}
+        p AÑO: #{peliObtenida.Year}
+        p CALIFICACIÓN: #{peliObtenida.Rated}
+        p FECHA ESTRENO: #{peliObtenida.Released}
+        p DURACIÓN: #{peliObtenida.Runtime}
+        p GÉNERO: #{peliObtenida.Genre}
+        p DIRECTOR: #{peliObtenida.Director}
+        p GUIÓN ORIGINAL: #{peliObtenida.Writer}
+        p ACTORES: #{peliObtenida.Actors}
+        p ARGUMENTO: #{peliObtenida.Plot}
+        img(src= peliObtenida.Poster)

@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+image {
+    width: 200px;
+}
